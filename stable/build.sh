@@ -27,4 +27,4 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 PACKAGES="$PACKAGES luci-app-uhttpd"
 
-make image PACKAGES="$PACKAGES" ROOTFS_PARTSIZE="4096"
+make image PACKAGES="$PACKAGES" ROOTFS_PARTSIZE="10240"
